@@ -1,0 +1,726 @@
+@charset "utf-8";
+
+/*css document*/
+
+body {
+    background-color: #302e2e;
+}
+
+.wrapper {
+    background-color: #302e2e;
+    height: 1500px;
+    width: 100%;
+
+        height: 100vh;
+        width: 100%;
+        background-image: url("../images/back2.webp" !important);
+        background-color: #e3ffe6;
+        background-size: cover !important;
+        position: relative;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+        gap: 1.5rem;
+    
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* backgroung image section  of the home page */
+
+.bckimg {
+    width: 100%;
+    height: 140vh;
+    background-image: url("../images/back2.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    
+}
+
+:root{
+	--bg-color: #ffffff;
+	--text-color:#0f172a;
+	--main-color:#6b7280;
+	--other-color:#334155;
+	--big-font:4.3rem;
+	--h2-font:2.2rem;
+	--p-font:1rem;
+}
+
+/* navigation bar for all pages */
+
+nav {
+    position: fixed;
+	right: 0;
+	top: 0;
+	width: 100%;
+	z-index: 1000;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background: transparent;
+	padding: 17px 11%;
+	border-bottom: 1px solid #f7f9fb;
+	transition: all .45s ease;
+}
+
+
+
+nav ul {
+    display: flex;
+    box-sizing: border-box;
+}
+
+nav ul li a {
+    font-size: 20px;
+    color: black;
+    font-weight: 400;
+    padding: 10px 25px;
+    margin: 0 5px;
+    background: transparent;
+    border-radius: 30px;
+    transition: all .45s ease;
+
+}
+
+ .logo img{
+        width: 50%;
+        height: auto;
+    }
+
+nav ul li a:hover {
+    
+        background: #a3bad1;
+    }
+
+    section {
+        padding: 100px 11% 90px;
+    }
+
+
+nav ul li a.active {
+    font-weight: bold;
+    color: #7f20d8;
+}
+
+.search-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin: 20px;
+    height: 30px;
+	display: flex;
+	padding: 10px 20px;
+	background:#fff;
+	border-radius: 30px;
+	align-items: center;
+
+}
+	
+	
+
+
+
+ .search-bar {
+        width: 0;
+        height: 5px;
+        padding: 5px;
+        transition: width 0.5s ease;
+        overflow: hidden;
+        border: none;
+        outline: none;
+        background: transparent;
+      
+        border-top: none;
+    }
+
+
+#search-icon {
+    cursor: pointer;
+    padding: 5px;
+    margin-left: 5px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    font-size: 18px;
+}
+
+/* end of navigation section */
+
+
+/*body section of the home page*/
+
+
+/* The :nth-child(n) selector matches every element that is the nth child, regardless of type, of its parent. */
+
+
+/* n can be a number, a keyword, or a formula. */
+
+.text-container p:nth-child(1) {
+    font-family: Calibri;
+    font-weight: bold;
+    color: #6d6d6d;
+    font-size: 30px;
+}
+
+.text-container p:nth-child(2) {
+    font-family: calibri;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: #1cdfe6;
+    font-size: 60px;
+}
+
+.text-container p:nth-child(3) {
+    font-family: myriad pro regular;
+    color: #1cdfe6;
+    font-size: 30px;
+    line-height: 30px;
+}
+
+.text-container p {
+    line-height: 0px;
+    margin: 45px 0px 25px;
+}
+
+.text-container {
+    float: right;
+    padding-right: 150px;
+    padding-top: 200px;
+}
+
+
+/* box section of the home page */
+
+.box-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.box-container box-1 details {
+    color: white;
+}
+
+.box-1,
+.box-2,
+.box-3,
+.box-4 {
+    width: 300px;
+    height: 420px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 2px 2px 18px rgba(241, 235, 235, 0.3);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin: 0px 4px;
+}
+
+.box-1,
+.box-2,
+.box-3,
+
+.box-4 {
+    background-image: url("../images/bpic.jpg");
+}
+
+.box-1 span,
+.box-2 span,
+.box-3 span,
+.box-4 span {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: calibri;
+    font-weight: bold;
+}
+
+.box-1 p:nth-child(2),
+.box-2 p:nth-child(2),
+.box-3 p:nth-child(2),
+.box-4 p:nth-child(2) {
+    color: #FFFFFF;
+    font-family: calibri;
+    /* font-size: 23px; */
+    line-height: 0px;
+}
+
+
+/* selector */
+
+.box-1 p:nth-child(3),
+.box-2 p:nth-child(3),
+.box-3 p:nth-child(3),
+.box-4 p:nth-child(3) {
+    font-family: calibri;
+    color: #dfd0d0;
+    text-align: center;
+    width: 230px;
+    margin: 0px 0px 20px 0px;
+}
+
+
+/* read more button in the box */
+
+.box-1 button,
+.box-2 button,
+.box-3 button,
+.box-4 button {
+    width: 100px;
+    height: 30px;
+    background-color: #FFFFFF;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+/* end of the home page body part */
+
+
+/* cv part fot the cv page*/
+
+* {
+    box-sizing: border-box
+}
+
+
+/* Container for skill bars */
+
+.container {
+    width: 100%;
+    /* Full width */
+    background-color: #ddd;
+}
+
+.skills {
+    text-align: right;
+    /* Right-align text */
+    padding-top: 10px;
+    /* top padding */
+    padding-bottom: 10px;
+    /*  bottom padding */
+    color: white;
+    /* White text color */
+}
+
+.html {
+    width: 90%;
+    background-color: #04AA6D;
+}
+
+.css {
+    width: 70%;
+    background-color: #2c2e30;
+}
+
+.js {
+    width: 60%;
+    background-color: #f44336;
+}
+
+.python {
+    width: 50%;
+    background-color: #d6a9a6;
+}
+
+.java {
+    width: 75%;
+    background-color: #808080;
+}
+
+
+/* end of cv page */
+
+
+/* for the blog page content*/
+
+
+/* blog section*/
+
+.main {
+    margin-left: 200px;
+    color: white;
+}
+
+#one img {
+    width: 50%;
+    height: 50%;
+    float: right;
+    padding-left: 30px;
+    padding-bottom: 20px;
+}
+
+#two img {
+    width: 30%;
+    height: 13%;
+    float: left;
+    padding-right: 20px;
+    padding-bottom: 10px;
+}
+
+#one,
+#two,
+#three,
+#four,
+#five {
+    color: #1cdfe6;
+    text-align: justify;
+}
+
+#one,
+#two,
+#three,
+#four,
+#five p {
+    font-size: 20px;
+}
+
+#two ol li {
+    font-size: 30px;
+}
+
+.welcome {
+    color: white;
+    padding-left: 10px;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+#main {
+    transition: margin-left .5s;
+    padding: 16px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+    .sidenav a {
+        font-size: 18px;
+    }
+}
+
+
+/* end of blog page */
+
+
+/* research page*/
+
+
+/* body */
+
+* {
+    box-sizing: border-box;
+}
+
+ol h2 {
+    color: #1cdfe6;
+}
+
+.researchpage p {
+    border: 5px solid #555;
+    color: #1cdfe6;
+    font-size: 25px;
+    text-align: justify;
+    padding: 5px;
+}
+
+.madeforimg img {
+    border: 5px solid #555;
+    height: 500px;
+    width: 50%;
+}
+
+.column {
+    float: left;
+    width: 50%;
+    padding: 5px;
+}
+
+
+/* Clearfix (clear floats) */
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
+/* end of research page */
+
+
+/* contact page css*/
+
+
+/* for clock*/
+
+clock {
+    display: grid;
+    height: 100%;
+    place-items: center;
+    background: #000;
+}
+
+.wrapper2 {
+    height: 100px;
+    width: 360px;
+    position: relative;
+    background: linear-gradient(135deg, #14ffe9, #181715, #ff00e0);
+    border-radius: 10px;
+    cursor: default;
+    animation: animate 1.5s linear infinite;
+}
+
+.wrapper2 .display,
+.wrapper2 span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.wrapper2 .display {
+    z-index: 999;
+    height: 85px;
+    width: 345px;
+    background: #1b1b1b;
+    border-radius: 6px;
+    text-align: center;
+}
+
+.display #time {
+    line-height: 85px;
+    color: #fff;
+    font-size: 50px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    background: linear-gradient(135deg, #14ffe9, #ffeb3b, #ff00e0);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: animate 1.5s linear infinite;
+}
+
+@keyframes animate {
+    100% {
+        filter: hue-rotate(360deg);
+    }
+}
+
+.wrapper2 span {
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    background: inherit;
+}
+
+.wrapper2 span:first-child {
+    filter: blur(7px);
+}
+
+.wrapper2 span:last-child {
+    filter: blur(20px);
+}
+
+
+/* contact form */
+
+.clove,
+.cwelcome {
+    width: 100%;
+    text-align: center;
+    border: 5px solid rgb(231, 212, 212);
+    color: #1cdfe6;
+}
+
+.locationimg img {
+    width: 350px;
+    height: 300px;
+}
+
+.change {
+    display: block;
+    margin-left: auto;
+    margin-right: 10%;
+    width: 50%;
+}
+
+
+
+
+/* input section in the contact page */
+
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.containercontact {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+.containercontact form {
+    color: black;
+}
+
+
+/* this is for alignment of the icon below the location image */
+
+.contacticon img {
+    height: 30px;
+    width: 30px;
+}
+
+.contacticon ul i {
+    font-size: 18px;
+    color: black;
+    position: relative;
+    padding: 0px 10px 40px 20px;
+    text-align: right;
+}
+
+
+/*footer section*/
+
+.social-items img {
+    height: 80px;
+    width: 80px;
+}
+
+.inner-footer {
+    margin: 0px;
+    padding: 0px;
+    background-color: #6d6d6d;
+}
+
+.social-links {
+    display: flex;
+}
+
+.social-links ul {
+    padding: 0px;
+    display: flex;
+    width: 300px;
+    height: 80px;
+    margin: auto;
+}
+
+.social-items {
+    list-style: none;
+}
+
+.social-items img {
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.quick-links {
+    display: flex;
+    width: 450px;
+    height: 70px;
+    margin: auto;
+}
+
+.quick-links ul {
+    display: flex;
+}
+
+.quick-items {
+    list-style: none;
+}
+
+.quick-items a {
+    text-decoration: none;
+    padding: 0px 15px;
+    font-size: 18px;
+    color: aqua;
+    transition: all .25s;
+}
+
+.quick-items a:hover {
+    color: rgb(235, 167, 91);
+}
+
+.quick-items a.active {
+    font-weight: bold;
+    color: #211130;
+}
+
+.outer-footer {
+    padding: 15px;
+    text-align: center;
+    color: aqua;
+    font-size: 18px;
+    background-color: black;
+}

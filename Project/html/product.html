@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!--css style file--->
+	<link rel="stylesheet" type="text/css" href="../css/product.css">
+
+	
+  	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+
+	<!--for javascript-->
+	<script type="text/javascript" src="../js/product.js" defer></script>
+
+	<title>product page</title>
+
+
+<!-- img style for search ----->
+	<style type="text/css">
+		.oki img{
+			width: 20px;
+			height: auto;
+			padding-top: 5px;
+		}
+	</style>
+
+<!-- java for search ----->
+
+
+</head>
+<body>
+
+	<!-- header section design----->
+		<header>
+			<a href="home.html" class="logo"><img src="../images/MYLOGO.png"></a>
+
+			<ul class="navbar">
+				<li><a href="home.html" >Home</a></li>
+				<li><a href="About Us.html">About</a></li>
+				<li><a href="blog.html">Blog</a></li>
+				<li><a href="contact.html">Contact</a></li>
+				<li><a href="product.html">Product</a></li>
+				<li><a href="reserch.html">Research</a></li>
+			</ul>
+			
+				<div class="search-container">
+        	<input type="text" class="search-bar" placeholder="Search...">
+        	<button id="search-icon" class="oki" onclick="toggleSearch()"><img src="../images/ss.png"></button>
+    		</div>
+			
+		</header>
+<!--Main shop section for product -->
+		<section class="product">
+			
+			<div class="product-text">
+				<h8 style="color:gray; text-align: center;" >Shop all latest offers and innovations</h8> <br>
+				  <button onclick="scrollToSection('gogo')" class="butt">Shop now</button>
+			</div>
+		</section>
+
+		<!--final product section of printer-->
+		<section class="pro" id="gogo">
+			
+			<div class="wrapper">
+				<!--butt img for slider -->
+			<i id="left" class="left" ><img src="../images/left.png"> </i>
+				<ul class="carousel">
+					<li class="card">
+						<div class="img"><img src="../printers/ps.png" draggable="false"></div>
+						<h6>PIXMA G7020 Wireless MegaTank All-In-One Printer</h6>
+						<h4 style="color: gray;"> $229.99</h4>
+						<h2>Buy now</h2>
+					</li>
+					<li class="card">
+						<div class="img"><img src="../printers/ps2.png" draggable="false"></div>
+						<h6>PIXMA TS7720 Wireless Home All-in-One Printer</h6>
+						<h4 style="color: gray;">$99.99</h4>
+						<h2>Buy now</h2>
+					</li>
+					<li class="card">
+						<div class="img"><img src="../printers/ps3.png" draggable="false"></div>
+						<h6>Canon imageCLASS LBP122dw - Wireless, Duplex Laser Printer</h6>
+						<h4 style="color: gray;">$99.99</h4>
+						<h2>Buy now</h2>
+					</li><li class="card">
+						<div class="img"><img src="../printers/ps4.png" draggable="false"></div>
+						<h6>imageCLASS MF462dw - All-in-One, Wireless, Duplex Laser Printer</h6>
+						<h4 style="color: gray;">$291.99</h4>
+						<h2>Buy now</h2>
+					</li><li class="card">
+						<div class="img"><img src="../printers/ps5.png" draggable="false"></div>
+						<h6>MAXIFY GX2020 Wireless MegaTank Home and Office All-in-One Printer</h6>
+						<h4 style="color: gray;">$299.99</h4>
+						<h2>Buy now</h2>
+					</li><li class="card">
+						<div class="img"><img src="../printers/ps6.png" draggable="false"></div>
+						<h6>Color imageCLASS MF751Cdw</h6>
+						<h4 style="color: gray;">$399.99</h4>
+						<h2>Buy now</h2>
+					</li>
+				</ul>
+				<!--butt img for slider -->
+			<i id="right" class="right" ><img src="../images/right.png"> </i>
+			</div>
+		</section>
+		<footer class="end-text">
+			
+				<p> &copy 2024 All Rights Reserved by Sonang Tamnag </p>
+			
+		</footer>
+		<!-- Place this at the end of your HTML, just before the closing </body> tag -->
+
+   
+
+</body>
+</html>

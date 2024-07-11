@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>research</title>
+    <link rel="stylesheet" type="text/css" href="../css/reserch-style.css">
+    
+      <link rel="preconnect" href="https://fonts.googleapis.com%22%3E/
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+
+    <!-- img style for search ----->
+	<style type="text/css">
+		.oki img{
+			width: 20px;
+			height: auto;
+			padding-top: 5px;
+		}
+	</style>
+
+    <!-- java for search ----->
+<script>
+
+document.addEventListener("DOMContentLoaded", function() {
+    let header = document.querySelector("header");
+
+    window.addEventListener("scroll", function () {
+        header.classList.toggle("sticky", window.scrollY > 0);
+    });
+});
+
+
+    function toggleSearch() {
+        var searchIcon = document.getElementById('search-icon');
+        var searchBar = document.querySelector('.search-bar');
+
+        if (searchBar.style.width === '0px' || searchBar.style.width === '') {
+            searchBar.style.width = '200px';
+        } else {
+            searchBar.style.width = '0';
+        }
+    }
+
+    document.getElementById('search-icon').addEventListener('click', toggleSearch);
+
+    
+
+</script>
+
+</head>
+
+<body>
+
+    <!-- nav section design----->
+        <header class="sticky" >
+            <a href="home.html" class="logo"><img src="../images/MYLOGO.png"></a>
+
+            <ul class="navbar">
+                <li><a href="home.html" >Home</a></li>
+				<li><a href="About Us.html">About</a></li>
+				<li><a href="blog.html">Blog</a></li>
+				<li><a href="contact.html">Contact</a></li>
+				<li><a href="product.html">Product</a></li>
+				<li><a href="reserch.html">research</a></li>
+            </ul>
+
+                <div class="search-container">
+                    <input type="text" class="search-bar" placeholder="Search...">
+                    <button id="search-icon" class="oki" onclick="toggleSearch()"><img src="../images/ss.png"></button>
+                    </div>
+
+        </header>
+        <section class="product">
+
+        </section>
+
+        <li> <h1>About the research</h1></li>
+    
+        
+        </div>
+        <br>
+        <div class="researchpage">
+            <p>So,we have done research on many things like creating and doing all the HTML codes.We have learned many things how can 
+                solve the problem how do we face it and whats the reason the problem is being caused .Many reference are kept where we learned 
+                a lot things and make our work more catchy.Our team made a research on ecommers website and how to make the pages as we want.The 
+                reference are kept at the bottom last of this page which helped us to make website.
+
+            </p>
+        </div>
+        <br>
+        <h2>
+            <li>The Navbar scroll problem</li>
+        </h2>
+        <img src="../images/navbarproblem.png" alt="forest" style="width: 600px"> <img src="../images/navbarproblemsolved.png" alt="forest" style="width: 600px"> 
+            </div>
+        <br>
+        <div class="researchpage">
+            <p>The above shown figure shows how can solve the navbar problem.In the first figure the nav bar is coming down while we scroll 
+                the page.It can be fixed by many ways .It's easy and hard to find the codes .It took me while to solve the problem.The second 
+                picture shows the solved navbar.The codes named"position" of the navbar should be kept fixed.Thats how we can solve the problem.
+                It's easy to solve after we know the solution.So,this was the research we did on the navbarproblem solving.This was quite hard
+                our team did the research and solved it .It was a easy step to do but as a begginer it was hard for us.So this was the solution
+                and explantion of how to see and solve the nav bar problem.The code and steps are given.
+            </p>
+        </div>
+        <br>
+        <h2>
+            <li>Picture size problem </li>
+
+        </h2>
+        <img src="../images/picturesizeproblem.png" alt="forest" style="width: 600px">  <img src="../images/picturesizeproblemsolved.png" alt="forest" style="width: 600px"> 
+        
+        </div>
+        <br>
+        <div class="researchpage">
+            <p>The above two images are about the comparison between the a page with picture problem and solved one.In the first picture 
+                we see that the loaded picture size is bigger and doesn't match the requirement.It's big and seems like a background because 
+                of its size.The second picture shows  the solved one looks. It is understandable and clean to look.So for this we will have to 
+                have to write "style width" and write the size like i have written "600px" from this we can solve the problem of picture size problem
+                This was easy to solve .The size depends on the user it can be anysize we want ,to put the picutre we just have to load the picture 
+                load it in the same folder as our index html and css.Then we should put the code src="./images/navbarproblem.png" alt="forest" style="width: 600px">
+                it will load the picture just like I have done above.
+
+        </div>
+        <li></li>
+        <br>
+        <h2>
+            <li>All the reference were taken from</li>
+        </h2>
+        
+        <br>
+        <div class="researchpage">
+            <p>All the reference will be mentioned below</p>
+            <b><a href="https://www.thecodehelp.in/">"codehelper"</a></b>
+            <p> This site helped me and my friends on how to use codes how does it works and where can it be used.This is very easy to 
+                use and can be done easily.</p>
+            <b><a href="https://convertio.co/">"covertio.co"</a></b>
+            </p>This site helped me to convert the photos into JPG and any other media files.This site can convert any file media into any type.
+            JPG is only the one type used for html image loading.</p>
+            <b><a href="https://www.youtube.com/watch?v=oYRda7UtuhA&t=3s">"how to create website using HTML and CSS</a></b>
+            <p>So,In this video a full step by step process is shown about creating a website .It helped me a lot 
+                and gave me some knowledge on website building.</p>
+                <b><a href="https://www.youtube.com/watch?v=-Yw9gBHE60E">"How to create a navbar"</a></b>
+                <p>In this video I have learned how to make navbar and how can we fit the navbar ,design it. </p>
+                <b><a href="https://www.w3schools.com/">"W3schools"</a></b>
+                <p>In this website we learned about how the language and code says ,Whats the main work of the keys which are used in this whole 
+                    HTML.</p>
+                </p>
+        </div>
+    </ol>
+    <br>    
+        </div>
+
+</body>
+
+</html>
+        
